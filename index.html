@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="w3.css"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+        </style>
+        <title> Nessa's Website</title>
+        <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/160256263?v=4">
+    </head>
+
+    <body>
+        <div class="big">
+            <br>
+            <div class="one">
+                <h1 class="heading-text"> Welcome to my Website!</h1>
+                <h3 class="heading-text"> mycanee</h3>
+                <br>
+            </div>
+            
+            <div class="w3-bar" id="bar">
+                <button class="w3-bar-item w3-button tablink tab" onclick="openCity(event,'London');" id="Ao3">
+                    <img id="Ao3Img" src="book_3_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"> Ao3
+                </button>
+                <button class="w3-bar-item w3-button tablink w3-brown tab" onclick="openCity(event,'Paris');" id="edits">
+                    <img id="EditsImg" src="videocam_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"> Edits
+                </button>
+            </div>
+
+            <div id="London" class="w3-container city info heading-text">
+                <h1>Ao3</h1>
+                <button class="w3-button w3-brown w3-round-xlarge w3-hover-black london-button" onclick="window.location.href='https://archiveofourown.org/users/cigsrete'"> Visit my Ao3</button>
+                <h1> My Babysitter's a Popstar <span class="new-release"> &larr; Coming soon!</span></h1>
+                <!--
+                <button class="w3-button w3-brown w3-round-xlarge w3-hover-black london-button" onclick="window.location.href='https://archiveofourown.org/works/63622531'"> Read now </button>
+                <h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
+            -->
+                <br>
+                <h1> Always n Forever</h1>
+                <button class="w3-button w3-brown w3-round-xlarge w3-hover-black london-button" onclick="window.location.href='https://archiveofourown.org/works/63622531'"> Read now </button>
+                <h3> 
+                  "I never stopped caring, Jinx," Ekko whispered, his voice thick with emotion. "I never stopped loving you."
+              </h3>
+                <h1> Dance With me</h1>
+                <button class="w3-button w3-brown w3-round-xlarge w3-hover-black london-button" onclick="window.location.href='https://archiveofourown.org/works/63583099'"> Read now </button>
+                <h3> The doctor came back with the results, she forced herself through it, forced herself to sit there, listen to the doctor's voice as they explained the results.<br>
+                  "Complications from Shimmer exposure."<br>
+                  "Irreversible damage to the reproductive system."<br>
+                  "Infertile."<br> 
+                  Infertile?<br>
+                </h3>
+            </div>
+
+            <div id="Paris" class="w3-container city info heading-text" style="display:none">
+                <h1>Edits</h1>
+                <button class="w3-button w3-white w3-round-xlarge w3-hover-black london-button" onclick="window.location.href='https://www.tiktok.com/@ourcanee'"> Visit my Tiktok</button>
+              <!--
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p> 
+            -->
+                      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@ourcanee/video/7484019478657764654" data-video-id="7484019478657764654" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@ourcanee" href="https://www.tiktok.com/@ourcanee?refer=embed">@ourcanee</a> hungry for life.<a title="timebomb" target="_blank" href="https://www.tiktok.com/tag/timebomb?refer=embed">#timebomb</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="fortiche" target="_blank" href="https://www.tiktok.com/tag/fortiche?refer=embed">#fortiche</a> <a title="ekko" target="_blank" href="https://www.tiktok.com/tag/ekko?refer=embed">#ekko</a> <a title="jinx" target="_blank" href="https://www.tiktok.com/tag/jinx?refer=embed">#jinx</a> <a title="leagueoflegends" target="_blank" href="https://www.tiktok.com/tag/leagueoflegends?refer=embed">#leagueoflegends</a> <a title="musicvideo" target="_blank" href="https://www.tiktok.com/tag/musicvideo?refer=embed">#musicvideo</a> <a target="_blank" title="♬ original sound - ✧.*" href="https://www.tiktok.com/music/original-sound-7484019463084460843?refer=embed">♬ original sound - ✧.*</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                    
+            </div>
+        </div>
+        <div class="credits">
+            <h2>© 2025 <a href= "https://the37signals1.github.io/website/"> the37signals1.</a></h2>
+            <h3>Made by <a href="https://the37signals1.github.io/website/" class="credits-link">the37signals1</a></h3>
+        </div>
+
+        <!-- Anything past here goes out the box -->
+        <script>
+            function openCity(evt, cityName) {
+                var i, x, tablinks;
+
+                // Hide all city divs
+                x = document.getElementsByClassName("city");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+
+                 // Remove the active-tab class from all tab buttons
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active-tab");
+        }
+
+                // Reset the background color of all tab buttons
+                tablinks = document.getElementsByClassName("tablink");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].style.backgroundColor = ""; // Reset to default
+                }
+
+                // Show the selected city div
+                document.getElementById(cityName).style.display = "block";
+
+                 // Add the active-tab class to the clicked tab button
+        evt.currentTarget.classList.add("active-tab");
+    
+
+                // Handle image changes dynamically
+                if (cityName === "London") {
+                    document.getElementById("Ao3Img").setAttribute(
+                        'src',
+                        'book_3_24dp_E3E3E3_FILL1_wght400_GRAD0_opsz24.png'
+                    );
+                    document.getElementById("EditsImg").setAttribute(
+                        'src',
+                        'videocam_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png'
+                    );
+                } else if (cityName === "Paris") {
+                    document.getElementById("EditsImg").setAttribute(
+                        'src',
+                        'videocam_24dp_E3E3E3_FILL1_wght400_GRAD0_opsz24.png'
+                    );
+                    document.getElementById("Ao3Img").setAttribute(
+                        'src',
+                        'book_3_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png'
+                    );
+                }
+            }
+        </script>
+    </body>
+</html>
