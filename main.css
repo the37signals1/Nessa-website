@@ -250,11 +250,19 @@ img {
     .heading-text {
         font-size: 1.5rem; /* Reduce font size for smaller screens */
     }
+
+    #bar {
+        margin-left: 5%; /* Move the tab container slightly to the right */
+    }
 }
 
 /* Target smaller devices with a max width of 480px (smartphones) */
 @media (max-width: 480px) {
     .heading-text {
         font-size: 1.2rem; /* Further reduce font size for very small screens */
+    }
+
+    #bar {
+        margin-left: 10%; /* Move the tab container further to the right for smaller screens */
     }
 }
