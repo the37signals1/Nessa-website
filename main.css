@@ -266,3 +266,7 @@ img {
         margin-left: 10%; /* Move the tab container further to the right for smaller screens */
     }
 }
+
+h3 {
+    color: #333; /* Darker text for better contrast */
+}
