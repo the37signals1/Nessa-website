@@ -271,3 +271,31 @@ img {
     color: #333; /* Darker text for better contrast */
     text-shadow: 2px 2px 4px white; /* Add a white shadow */
 }
+.circle-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 300px;
+}
+
+.video {
+    position: absolute;
+    width: 30%;
+}
+
+.video:nth-child(1) {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.video:nth-child(2) {
+    bottom: 0;
+    left: 10%;
+}
+
+.video:nth-child(3) {
+    bottom: 0;
+    right: 10%;
+}
