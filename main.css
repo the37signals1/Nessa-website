@@ -277,11 +277,18 @@ img {
     align-items: center;
     position: relative;
     height: 300px;
+    overflow: hidden; /* Prevent overflow */
+    max-width: 100%; /* Ensure it doesn't exceed the container width */
+    padding: 10px; /* Add padding inside the container */
+    box-sizing: border-box; /* Include padding in the width calculation */
 }
 
 .video {
     position: absolute;
     width: 30%;
+    max-width: 100%; /* Ensure videos don't exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Crop the video if necessary */
 }
 
 .video:nth-child(1) {
