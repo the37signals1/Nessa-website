@@ -266,28 +266,25 @@ img {
         margin-left: 10%; /* Move the tab container further to the right for smaller screens */
     }
     
+    
+    
     .circle-layout {
-        display:flex;
+        display: flex;
         flex-direction: column; /* Stack videos vertically */
         align-items: center; /* Center videos horizontally */
-        justify-content: center; /* Center videos vertically */
         gap: 20px; /* Add spacing between videos */
         padding: 10px; /* Add padding inside the container */
         width: 100%; /* Make the container full width */
-        overflow-x: hidden; /* Prevent horizontal overflow */
-
     }
 
     .video {
-        width: 90%; /* Make videos take up most of the screen width */
-        max-width: 500px; /* Optional: Limit the maximum width */
+        width: 100%; /* Make videos take up the full width of the container */
+        max-width: 400px; /* Limit the maximum width for larger screens */
         height: auto; /* Maintain aspect ratio */
         margin-bottom: 20px; /* Add spacing between videos */
         border-radius: 10px; /* Optional: Add rounded corners */
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-
     }
-    
 }
 
 #text{
