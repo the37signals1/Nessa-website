@@ -293,19 +293,7 @@ img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
 }
 
-.video.middle {
-    transform: translateY(-20px); /* Move the middle video slightly higher */
-}
-
-/* Adjust video positions for a more dynamic layout */
-.video:nth-child(1) {
-    align-self: flex-start; /* Align to the top */
-}
-
-.video:nth-child(2) {
-    align-self: center; /* Align to the center */
-}
-
-.video:nth-child(3) {
-    align-self: flex-end; /* Align to the bottom */
+table{
+    width :75%;
+    
 }
