@@ -274,26 +274,22 @@ img {
 /* Adjust video layout to prevent overflow */
 .circle-layout {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; /* Allow videos to wrap */
-    position: relative;
-    height: auto; /* Adjust height dynamically */
-    overflow: hidden; /* Prevent overflow */
-    max-width: 100%; /* Ensure container fits within the screen */
-    padding: 10px; /* Add padding inside the container */
+    justify-content: center; /* Center the videos horizontally */
+    align-items: flex-end; /* Align videos to the bottom by default */
     gap: 15px; /* Add spacing between videos */
-    box-sizing: border-box; /* Include padding in width */
+    padding: 10px; /* Add padding inside the container */
 }
 
 .video {
-    flex: 1 1 calc(30% - 20px); /* Allow videos to shrink and grow dynamically */
-    max-width: 100%; /* Prevent videos from exceeding container width */
+    width: 30%; /* Set a consistent width for all videos */
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Crop the video if necessary */
-    margin: 10px; /* Add spacing around videos */
     border-radius: 10px; /* Optional: Add rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.video.middle {
+    transform: translateY(-20px); /* Move the middle video slightly higher */
 }
 
 /* Adjust video positions for a more dynamic layout */
