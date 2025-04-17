@@ -265,6 +265,10 @@ img {
     #bar {
         margin-left: 10%; /* Move the tab container further to the right for smaller screens */
     }
+    .circle-layout{
+        flex-direction: column; /* Stack videos vertically on small screens */
+        align-items: center; /* Center videos horizontally */
+    }
 }
 
 #text{
