@@ -301,6 +301,7 @@ img {
     object-fit: cover; /* Crop the video if necessary */
     border-radius: 10px; /* Optional: Add rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    align-self: center; /* Center videos vertically within the container */
 }
 
 .video.middle {
