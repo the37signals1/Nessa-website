@@ -286,7 +286,7 @@ img {
 }
 
 .video {
-    width: 30%; /* Set a consistent width for all videos */
+    width: 75%; /* Set a consistent width for all videos */
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Crop the video if necessary */
     border-radius: 10px; /* Optional: Add rounded corners */
@@ -295,5 +295,5 @@ img {
 
 table{
     width :75%;
-    
+    margin-top: 3%;
 }
