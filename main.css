@@ -279,8 +279,19 @@ img {
         height: auto; /* Maintain aspect ratio */
         margin-bottom: 20px; /* Add spacing between videos */
         border-radius: 10px; /* Optional: Add rounded corners */
-        align-self: center;
     }
+    /* Adjust video positions for a more dynamic layout */
+.video:nth-child(1) {
+    align-self: center; /* Align to the top */
+}
+
+.video:nth-child(2) {
+    align-self: center; /* Align to the center */
+}
+
+.video:nth-child(3) {
+    align-self: center; /* Align to the bottom */
+}
 }
 
 #text{
