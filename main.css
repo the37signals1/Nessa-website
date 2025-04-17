@@ -268,15 +268,7 @@ img {
     
     
     
-    .circle-layout {
-        display: flex !important;
-        flex-direction: column !important; /* Stack videos vertically */
-        align-items: center !important; /* Center videos horizontally */
-        justify-content: flex-start !important; /* Align videos to the top */
-        gap: 20px !important; /* Add spacing between videos */
-        padding: 10px !important; /* Add padding inside the container */
-        width: 100% !important; /* Make the container full width */
-    }
+   
 
     .video {
         width: 100% !important; /* Make videos take up the full width of the container */
@@ -291,14 +283,6 @@ img {
 #text{
     color: #333; /* Darker text for better contrast */
     text-shadow: 2px 2px 4px white; /* Add a white shadow */
-}
-/* Adjust video layout to prevent overflow */
-.circle-layout {
-    display: flex;
-    gap: 15px; /* Add spacing between videos */
-    padding: 10px; /* Add padding inside the container */
-    justify-content: center; /* Center the videos horizontally */
-    align-items: flex-end; /* Align videos to the bottom by default */
 }
 
 .video {
