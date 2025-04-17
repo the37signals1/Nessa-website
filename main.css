@@ -265,14 +265,20 @@ img {
     #bar {
         margin-left: 10%; /* Move the tab container further to the right for smaller screens */
     }
-    .circle-layout{
-        flex-direction: column; /* Stack videos vertically on small screens */
+    
+    .circle-layout {
+        flex-direction: column; /* Stack videos vertically */
         align-items: center; /* Center videos horizontally */
+        gap: 20px; /* Add spacing between videos */
+        padding: 10px; /* Add padding inside the container */
     }
-    .video{
-        width: 150%; /* Make videos take up more width on small screens */
+
+    .video {
+        width: 90%; /* Make videos take up most of the screen width */
+        max-width: 400px; /* Optional: Limit the maximum width */
         height: auto; /* Maintain aspect ratio */
-        margin-bottom: 15px; /* Add spacing between videos */
+        margin-bottom: 20px; /* Add spacing between videos */
+        border-radius: 10px; /* Optional: Add rounded corners */
     }
 }
 
