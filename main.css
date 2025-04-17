@@ -285,15 +285,27 @@ img {
     text-shadow: 2px 2px 4px white; /* Add a white shadow */
 }
 
-.video {
+video {
     width: 75%; /* Set a consistent width for all videos */
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Crop the video if necessary */
     border-radius: 10px; /* Optional: Add rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    display: block;
+    margin:0 auto;
+    margin-bottom: 20px; /* Add spacing between videos */
+
 }
 
 table{
     width :75%;
     margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    padding: 10px; /* Add padding for better spacing */
+    text-align: center; /* Center the text in table cells */
+
+    
 }
