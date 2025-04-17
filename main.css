@@ -271,16 +271,16 @@ img {
     .circle-layout {
         display: flex;
         flex-direction: column; /* Stack videos vertically */
-        align-items: center; /* Center videos horizontally */
-        justify-content: flex-start; /* Align videos to the top */
+        align-items: center !important; /* Center videos horizontally */
+        justify-content: flex-start !important; /* Align videos to the top */
         gap: 20px; /* Add spacing between videos */
         padding: 10px; /* Add padding inside the container */
         width: 100%; /* Make the container full width */
     }
 
     .video {
-        width: 90%; /* Make videos take up most of the screen width */
-        max-width: none; /* Remove the global max-width limit */
+        width: 100%; /* Make videos take up the full width of the container */
+        max-width: 400px; /* Limit the maximum width for larger screens */
         height: auto; /* Maintain aspect ratio */
         margin-bottom: 20px; /* Add spacing between videos */
         border-radius: 10px; /* Optional: Add rounded corners */
