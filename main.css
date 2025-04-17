@@ -278,6 +278,10 @@ img {
         border-radius: 10px !important; /* Optional: Add rounded corners */
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) !important; /* Add a subtle shadow */
     }
+    table tr {
+        display: flex;
+        flex-direction: column; /* Stack table cells vertically */
+    }
 }
 
 #text{
