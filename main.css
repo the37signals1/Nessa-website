@@ -269,22 +269,22 @@ img {
     
     
     .circle-layout {
-        display: flex;
-        flex-direction: column; /* Stack videos vertically */
+        display: flex !important;
+        flex-direction: column !important; /* Stack videos vertically */
         align-items: center !important; /* Center videos horizontally */
         justify-content: flex-start !important; /* Align videos to the top */
-        gap: 20px; /* Add spacing between videos */
-        padding: 10px; /* Add padding inside the container */
-        width: 100%; /* Make the container full width */
+        gap: 20px !important; /* Add spacing between videos */
+        padding: 10px !important; /* Add padding inside the container */
+        width: 100% !important; /* Make the container full width */
     }
 
     .video {
-        width: 100%; /* Make videos take up the full width of the container */
-        max-width: 400px; /* Limit the maximum width for larger screens */
-        height: auto; /* Maintain aspect ratio */
-        margin-bottom: 20px; /* Add spacing between videos */
-        border-radius: 10px; /* Optional: Add rounded corners */
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+        width: 100% !important; /* Make videos take up the full width of the container */
+        max-width: 400px !important; /* Limit the maximum width for larger screens */
+        height: auto !important; /* Maintain aspect ratio */
+        margin-bottom: 20px !important; /* Add spacing between videos */
+        border-radius: 10px !important; /* Optional: Add rounded corners */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) !important; /* Add a subtle shadow */
     }
 }
 
