@@ -276,7 +276,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap; /* Allow videos to wrap if needed */
+    flex-wrap: wrap; /* Allow videos to wrap */
     position: relative;
     height: auto; /* Adjust height dynamically */
     overflow: hidden; /* Prevent overflow */
@@ -287,8 +287,7 @@ img {
 }
 
 .video {
-    position: relative; /* Change to relative for better control */
-    width: 30%; /* Ensure videos fit within the container */
+    flex: 1 1 calc(30% - 20px); /* Allow videos to shrink and grow dynamically */
     max-width: 100%; /* Prevent videos from exceeding container width */
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Crop the video if necessary */
