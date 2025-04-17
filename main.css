@@ -269,7 +269,7 @@ img {
         flex-direction: column; /* Stack videos vertically on small screens */
         align-items: center; /* Center videos horizontally */
     }
-    video{
+    .video{
         width: 100%; /* Make videos take up more width on small screens */
         height: auto; /* Maintain aspect ratio */
         margin-bottom: 15px; /* Add spacing between videos */
