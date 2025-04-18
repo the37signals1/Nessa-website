@@ -295,7 +295,7 @@ img {
 }
 
 video {
-    width: 105%; /* Set a consistent width for all videos */
+    width: 100%; /* Set a consistent width for all videos */
     
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Crop the video if necessary */
