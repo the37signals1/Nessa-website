@@ -277,7 +277,12 @@ img {
         margin-bottom: 20px !important; /* Add spacing between videos */
         border-radius: 10px !important; /* Optional: Add rounded corners */
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) !important; /* Add a subtle shadow */
+   
     }
+    table{
+        display: block; /* Stack table rows */
+        width: 100%; /* Ensure the table takes full width */
+    }    
     table tr {
         display: flex;
         flex-direction: column; /* Stack table cells vertically */
